@@ -4,12 +4,20 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+/*
+ * This class handles the interaction with the https://www.ncl.com/shore-excursions/search webpage."
+ * 
+ * @author : Sergio A. Hernandez
+ * @version : 1.0
+ * @since 2019-12-25
+ * 
+ */
 public class ExcursionResultsPage extends Page {
 
 	private By filterByPortsWidgeLocator = By.xpath( "//div[@class='filter-options']/ul[@class='filter-widget widget-right']/li/a[@class='widget-link' and @title='Port']" );
 	
 	/**
-	 * Constructs a Excursion Page Result object that provides interactions with the result page.
+	 * Constructs a Excursion Page Result object that provides interactions with the result page https://www.ncl.com/shore-excursions/search.
 	 * 
 	 * @param driver
 	 */

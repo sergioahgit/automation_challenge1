@@ -6,13 +6,21 @@ import org.openqa.selenium.WebElement;
 
 import framework.commons.ui.util.Wait;
 
+/*
+ * This class handles the interaction with the https://www.ncl.com main website page."
+ * 
+ * @author : Sergio A. Hernandez
+ * @version : 1.0
+ * @since 2019-12-25
+ * 
+ */
 public class MainPage extends Page {
 
 	private By excursionLinkLocator = By.xpath( "//a[@href='/shore-excursions']" );
 	private By portsLinkLocator = By.xpath( "//a[@class='simpleText' and @href='/port-of-call']" );
 
 	/**
-	 * Constructs a Main Web Page object that provides interactions with the main page.
+	 * Constructs a Main Web Page object that provides interactions with the https://www.ncl.com main website page.
 	 * 
 	 * @param driver
 	 */

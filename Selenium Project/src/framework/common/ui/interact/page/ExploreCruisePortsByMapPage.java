@@ -8,13 +8,21 @@ import org.openqa.selenium.WebElement;
 
 import framework.commons.util.Time;
 
+/*
+ * This class handles the interaction with the https://www.ncl.com/port-of-call webpage."
+ * 
+ * @author : Sergio A. Hernandez
+ * @version : 1.0
+ * @since 2019-12-25
+ * 
+ */
 public class ExploreCruisePortsByMapPage extends Page {
 
 	private By searchBarLocator = By.xpath( "//input[@id='searchbar']" );
 	private By searchBarSuggestedResultsLocator = By.xpath( "//li[@class='ng-scope']" );
 	
 	/**
-	 * Constructs a ExploreCruisePortsByMap Page object to search by Map.
+	 * Constructs a ExploreCruisePortsByMap Page object to search by Map https://www.ncl.com/port-of-call.
 	 * 
 	 * @param driver
 	 */

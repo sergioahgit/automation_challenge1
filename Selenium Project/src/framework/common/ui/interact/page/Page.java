@@ -9,6 +9,14 @@ import org.openqa.selenium.WebElement;
 import framework.commons.ui.condition.page.ScrollToBottomPage;
 import framework.commons.ui.util.Wait;
 
+/*
+ * This abstract class must be extended by every page object."
+ * 
+ * @author : Sergio A. Hernandez
+ * @version : 1.0
+ * @since 2019-12-25
+ * 
+ */
 public abstract class Page {
 
 	protected WebDriver driver = null;

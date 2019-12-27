@@ -9,6 +9,22 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/*
+ * This class defines a condition methods when interacting with the website.
+ * For example:
+ * 
+ *  1.  Let's wait until the page has successfully loaded.
+ *  2.  Let's wait until the page has successfully scrolled to the bottom of the page.
+ *  3.  Let's wait until a WebElment is clickable.
+ *  4.  etc ...
+ *  
+ * Use this class with the framework.commons.ui.util.Wait class
+ * 
+ * @author : Sergio A. Hernandez
+ * @version : 1.0
+ * @since 2019-12-25
+ * 
+ */
 public class Wait {
 
 	/**

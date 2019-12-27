@@ -2,6 +2,14 @@ package framework.commons.util;
 
 import java.util.concurrent.TimeUnit;
 
+/*
+ * This class defines a Time methods static methods that may be used throughout the framework.
+ * 
+ * @author : Sergio A. Hernandez
+ * @version : 1.0
+ * @since 2019-12-25
+ * 
+ */
 public class Time {
 
 	protected Time( ) { }
